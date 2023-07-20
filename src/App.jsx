@@ -1,8 +1,13 @@
-
+import Header from './compenants/header/header'
+import Hero from './compenants/hero/hero'
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div className="App">
+      <Header/>
+       <Hero /> 
+    </div>
   );
 }
 
 export default App;
+ 
