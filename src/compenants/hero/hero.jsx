@@ -17,8 +17,8 @@ return (
 
                 </div>
                 <div className=" flexColStart hero-des">
-                    <span>"Discover Your Brilliance: LearnConnect - Illuminating Minds, Empowering Lives."</span>
-                    <span>"The key to learning is not attending classes, but finding your own way."</span>
+                    <span className="secondaryText">"Discover Your Brilliance: LearnConnect - Illuminating Minds, Empowering Lives."</span>
+                    <span className="secondaryText">"The key to learning is not attending classes, but finding your own way."</span>
                 </div>
 
                 <div className="search-bar">
@@ -27,37 +27,35 @@ return (
                 </div>
 
                 <div className="flexCenter stats">
-                     <div className="flexColStart stat">
+                     <div className="flexColCenter stat">
                         
                         <span> <CountUp start={100} end={1000} duration={20}/>
                         <span>+</span></span>  
-                        <span >Premium Courses </span>    
+                        <span className="secondaryText">Premium Courses </span>    
 
                         
                      </div>
-                </div>
+                
 
-                <div className="flexCenter stats">
-                     <div className="flexColStart stat">
+                
+                     <div className="flexColCenter stat">
                         
                         <span> <CountUp start={100} end={2000} duration={20}/>
                         <span>+</span></span>  
-                        <span >Happy student </span>    
-
-                        
+                        <span className="secondaryText">Happy student </span>    
+                    
                      </div>
-                </div>
 
-                <div className="flexCenter stats">
-                     <div className="flexColStart stat">
+                
+                     <div className="flexColCenter stat">
                         
-                        <span> <CountUp start={1} end={10} duration={4}/>
+                        <span> <CountUp end={10}/>
                         <span>+</span></span>  
-                        <span >university </span>    
+                        <span className="secondaryText">university </span>    
 
-                        
-                     </div>
-                </div>
+                     </div> 
+                    </div>
+                
             </div>
           {/* right side */}
 
