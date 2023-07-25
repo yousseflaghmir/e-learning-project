@@ -1,0 +1,18 @@
+.c-container{
+    justify-content: space-around;
+    gap: 1rem; /*space betwen imgs*/
+
+}
+.c-container>img{
+   width: 9rem; 
+}
+.title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+  }

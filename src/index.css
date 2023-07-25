@@ -81,6 +81,7 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+/*
 .button{
   font-weight: 500;
   padding: 0.6rem 1.4rem;
@@ -94,8 +95,10 @@ a {
 .button:hover{
   cursor: pointer;
   transform: scale(1.1);
-  
+ 
 }
+*/ 
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

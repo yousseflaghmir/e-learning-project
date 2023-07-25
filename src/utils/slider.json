@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "django : Complete training for beninners",
+    "price": "7,03",
+    "detail": "A super pack course for JavaScript enthusiasts who want to learn the process of building an application",
+    "image": "./r6.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Python for Deep and maching learning",
+    "price": "66,3",
+    "detail": "Complete course on Machine Learning to master artificial intelligence, Tensorflow, and neural networks",
+    "image": "./r1.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Data analysis with python:Numpy,Pandas and Matplotlib",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Master Python libraries for Data Science and Data Processing: Numpy, Pandas, Matplotlib, and more!",
+    "image": "./r3.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Microsoft SQL for beginners : the A to Z course",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "A Complete Guide to Writing SQL Queries in Microsoft SQL Server",
+    "image": "./r2.jpg"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Programming in python for data science from A to Z",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "Learn to program in Python and use NumPy, Pandas, Matplotlib and Seaborn to do Data Science.",
+    "image": "./r7.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Migration of databases to AWS in Frensh!",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Obtain the knowledge necessary to host your relational databases in the AWS Cloud",
+    "image": "./r4.jpg"
   }
 ]
