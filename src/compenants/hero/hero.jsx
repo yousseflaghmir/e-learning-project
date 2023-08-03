@@ -11,7 +11,7 @@ return (
                 <div className="hero-title">
                     <div className="orange-circle"/>
                     <h1>
-                    Where <br/> Curiosity <br/> Meets Learning                  
+                    Where <br/> Storeino <br/> Meets Learning                  
                     </h1>
                     
 
@@ -23,7 +23,7 @@ return (
 
                 <div className="search-bar">
                     <input type="text" />
-                    <button className="button">Search</button>
+                    <button className="butto">Search</button>
                 </div>
 
                 <div className="flexCenter stats">
