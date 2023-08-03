@@ -8,7 +8,7 @@ import {
     AccordionItemState,
 } from 'react-accessible-accordion'
 import "react-accessible-accordion/dist/fancy-example.css";
-import{mdOUTlineArrowDropDown} from 'react-icons/md';
+import{MdOutlineArrowDropDown} from 'react-icons/md'
 import './Value.css'
 
 const Value = () => {
@@ -18,10 +18,19 @@ const Value = () => {
                 {/* left side */}
                 <div className="v-left">
                      <div className="image-container">
-                        <img src="./value.png" alt="" />
+                        <img src="./Value.png" alt="" />
                      </div>
+                </div>
+                <div className="flexColStart v-right">
+                    <span className="orangeText">Our Value</span>
+                    <span className="primaryText">Value We Give to You</span>
+                    <span className="secondaryText">
+                        We always ready to help by providing the best services for you .
+                    </span>
                 </div>
             </div>
         </section>
     )
 }
+
+export default Value

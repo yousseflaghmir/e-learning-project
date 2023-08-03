@@ -2,7 +2,7 @@ import Header from './compenants/header/header'
 import Hero from './compenants/hero/hero'
 import Programs from './compenants/programs/programs'
 import Courses from './compenants/courses/courses'
-
+import Value from './compenants/value/value'
 import './App.css'
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </div>
         <Programs/>
         <Courses/>
-        
+        <Value/>       
     </div>
   );
 }
