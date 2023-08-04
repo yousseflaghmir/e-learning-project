@@ -1,16 +1,24 @@
+.v-wrapper{
+    margin-top: 5%;
+}
+
+
 .v-container .image-container{
     border: 8px solid rgb(233, 232, 232 / 93%);
+    margin-left: 10%;
+   
 }
 .v-container>div{
     flex: 1; /* the items will grow and shrink y3ni ghykbro btasawi o ghy9smo espace binathom*/
 
 }
 .v-right{
-    gap:1rem;
+    gap: 1rem;
 }
 .accordion{
     margin-top: 2rem;
     border: none;
+    width: 90%;
 
 }
 .accordionItem{
@@ -20,10 +28,8 @@
     margin-bottom: 20px;
     overflow: hidden;
     transition:.5s ease all ;
-}
-.accordionItem.expanded{
-    box-shadow: var(--shadow);
-    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21) ;
 }
 
 
