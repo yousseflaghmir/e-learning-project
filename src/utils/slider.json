@@ -1,36 +1,36 @@
 [
   {
-    "name": "django : Complete training for beninners",
+    "name": "django : Complete training ",
     "price": "7,03",
     "detail": "A super pack course for JavaScript enthusiasts who want to learn the process of building an application",
     "image": "./r6.jpg"
   },
   {
-    "name": "Python for Deep and maching learning",
+    "name": "Python for Deep and M Learning",
     "price": "66,3",
     "detail": "Complete course on Machine Learning to master artificial intelligence, Tensorflow, and neural networks",
     "image": "./r1.jpg"
   },
   {
-    "name": "Data analysis with python : Numpy and Matplotlib",
+    "name": "Data analysis with python ",
     "price": "35,853",
     "detail": "Master Python libraries for Data Science and Data Processing: Numpy, Pandas, Matplotlib, and more!",
     "image": "./r3.jpg"
   },
   {
-    "name": "Microsoft SQL for beginners : the A to Z course",
+    "name": "Microsoft SQL for beginners ",
     "price": "47,043",
     "detail": "A Complete Guide to Writing SQL Queries in Microsoft SQL Server",
     "image": "./r2.png"
   },
   {
-    "name": "Programming in python for data science ",
+    "name": "Programming in python for Data ",
     "price": "66,353",
     "detail": "Learn to program in Python and use NumPy, Pandas, Matplotlib and Seaborn to do Data Science.",
     "image": "./r7.jpg"
   },
   {
-    "name": "Migration of databases to AWS in Frensh!",
+    "name": "Migration of databases to AWS! ",
     "price": "35,853",
     "detail": "Obtain the knowledge necessary to host your relational databases in the AWS Cloud",
     "image": "./r4.jpg"
