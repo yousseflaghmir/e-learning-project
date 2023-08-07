@@ -4,6 +4,8 @@ import Programs from './compenants/programs/programs'
 import Courses from './compenants/courses/courses'
 import Value from './compenants/value/value'
 import Contact from './compenants/contact/contact'
+import Getstarted from './compenants/Getstarted/getstarted'
+import Footer from './compenants/Footer/footer'
 import './App.css'
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Programs/>
         <Courses/>
         <Value/> 
-        <Contact/>      
+        <Contact/>   
+        <Getstarted/>  
+        <Footer/> 
     </div>
   );
 }

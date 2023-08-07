@@ -1,15 +1,19 @@
 import React from 'react'
 import './getstarted.css'
+import { color } from 'framer-motion'
 
 const getstarted = () => {
   return (
     <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
             <div className="flexColCenter inner-container">
-                <span>Get Started with Storieno</span>
-                <span>Subscribe and find super attractive courses in different </span>
-                <span></span>
-            </div>
+                <span className="primaryText" >Get Started with Storieno</span>
+                <span className="secondaryText" >Subscribe and find super attractive courses
+                  <br/> Find your courses now </span>
+                  <button className="button">Get Started
+                    <a href="mailto:laghmeryoussef@gmail.com"></a>
+                  </button>
+             </div>
         </div>
     </section>
   )
