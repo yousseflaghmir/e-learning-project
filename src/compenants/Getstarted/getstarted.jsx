@@ -7,7 +7,7 @@ const getstarted = () => {
     <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
             <div className="flexColCenter inner-container">
-                <span className="primaryText" >Get Started with Storieno</span>
+                <span className="primaryText" >Get Started with Storeino</span>
                 <span className="secondaryText" >Subscribe and find super attractive courses
                   <br/> Find your courses now </span>
                   <button className="button">Get Started
