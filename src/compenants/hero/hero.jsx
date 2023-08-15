@@ -1,6 +1,7 @@
 import React from "react";
 import './Hero.css'
 import CountUp from "react-countup";
+import {motion, spring} from 'framer-motion'
 const Hero = ()=> {
 return (
     <section className="hero-wrapper">
@@ -10,16 +11,30 @@ return (
             <div className="flexColStart hero-left">
                 <div className="hero-title">
                     <div className="orange-circle"/>
-                    <h1>
+                    <motion.h1
+                    initial= {{y:"2rem", opacity:0}}
+                    animate={{ y:0 ,opacity : 1 }}
+                    transition={{
+                        duration:2,delay:.3,
+                        type:"spring"
+                    }}
+                    >
                     Where <br/> Storeino <br/> Meets Learning                  
-                    </h1>
+                    </motion.h1>
                     
 
                 </div>
-                <div className=" flexColStart hero-des">
+                <motion.div className=" flexColStart hero-des"
+                 initial= {{x:"5rem", opacity:0}}
+                 animate={{ x:0 ,opacity : 1 }}
+                 transition={{
+                     duration:2,delay:.3,
+                     type:"spring"}}
+                 
+                >
                     <span className="secondaryText">"Discover Your Brilliance: LearnConnect - Illuminating Minds, Empowering Lives."</span>
                     <span className="secondaryText">"The key to learning is not attending classes, but finding your own way."</span>
-                </div>
+                </motion.div>
 
                 <div className="search-bar">
                     <input type="text" />
@@ -60,9 +75,16 @@ return (
           {/* right side */}
 
             <div className="flexCenter hero-right">
-                <div className="image-container">
+                <motion.div 
+                initial= {{x:"2rem", opacity:0}}
+                animate={{ x:0 ,opacity : 1 }}
+                transition={{
+                    duration:2,delay:.3,
+                    type:"spring"}}
+                
+                className="image-container">
                     <img src="./hero-image.png" alt="" />   
-                </div>
+                </motion.div>
             </div>        
         
         
