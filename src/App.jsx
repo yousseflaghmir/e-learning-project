@@ -1,29 +1,73 @@
-import Header from './compenants/header/header'
-import Hero from './compenants/hero/hero'
-import Programs from './compenants/programs/programs'
-import Courses from './compenants/courses/courses'
-import Value from './compenants/value/value'
-import Contact from './compenants/contact/contact'
-import Getstarted from './compenants/Getstarted/getstarted'
-import Footer from './compenants/Footer/footer'
-import './App.css'
+import React, { Suspense } from "react";
+import Website from "./pages/website";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Layout from "./compenants/layout/layout";
 function App() {
   return (
-    <div className="App">
-      <div>
-        <div className="white-gradiant"/>
-        <Header/>
-        <Hero/> 
-      </div>
-        <Programs/>
-        <Courses/>
-        <Value/> 
-        <Contact/>   
-        <Getstarted/>  
-        <Footer/> 
-    </div>
+    <BrowserRouter>
+      <Suspense
+        fallback={
+          /* ALL THIS CODE A YOUSSEF IS JUST FOR THE LOADING OPAGE ICON OF THE PENCIL */
+          <div>
+            <div class="box-of-star1">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star2">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star3">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star4">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div data-js="astro" class="astronaut">
+              <div class="head"></div>
+              <div class="arm arm-left"></div>
+              <div class="arm arm-right"></div>
+              <div class="body">
+                <div class="panel"></div>
+              </div>
+              <div class="leg leg-left"></div>
+              <div class="leg leg-right"></div>
+              <div class="schoolbag"></div>
+            </div>
+          </div>
+        }
+      > 
+        <Routes>
+          <Route element={<Layout />}>
+             <Route path="/" element={<Website />} />
+          </Route>
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
   );
 }
 
 export default App;
- 
