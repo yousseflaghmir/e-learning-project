@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import Website from "./pages/website";
+import Properties from "./pages/properties/properties";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Layout from "./compenants/layout/layout";
@@ -63,6 +64,7 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
              <Route path="/" element={<Website />} />
+             <Route path="/properties" element={<Properties/>} />
           </Route>
         </Routes>
       </Suspense>
