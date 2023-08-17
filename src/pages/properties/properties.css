@@ -1,0 +1,14 @@
+.properties-container{
+    gap: 2rem;
+    background-color: white;
+}
+.properties-container .search-bar{
+    width: clamp(12rem, 100%, 28rem);
+    border: 1px solid rgba(120, 120, 120, 0.374);
+    border-radius: 30px;
+
+}
+.properties-container .search-bar .butto{
+    
+    cursor: pointer;
+}

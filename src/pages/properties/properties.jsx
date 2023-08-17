@@ -3,7 +3,12 @@ import './properties.css'
 
 const properties = () => {
   return (
-    <div>properties</div>
+    <div className="flexCenter paddings innerWidth properties-container">
+        <div className="search-bar">
+                    <input type="text" />
+                    <button className="butto">Search</button>
+                </div>
+    </div>
   )
 }
 

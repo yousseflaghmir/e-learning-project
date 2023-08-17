@@ -4,6 +4,7 @@ import "swiper/css";
 import "./courses.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from '../../utils/commun';
+import Propertycard from "../propertycard/propertycard"
 const courses = () => {
     return (
         
@@ -18,14 +19,7 @@ const courses = () => {
                     {
                         data.map((card, i) => (
                             <SwiperSlide key={i}>
-                                <div className="flexColStart r-card">
-                                    <img src={card.image} alt="" />
-                                    <span className="secondaryText r-price">
-                                        <span style={{color:"orange"}}>$</span><span>{card.price}</span>
-                                    </span>
-                                    <span className="primaryText">{card.name}</span>
-                                    <span className="secondaryText">{card.detail}</span>
-                                </div>
+                                <Propertycard card={card}/>
                             </SwiperSlide>
                         ))
                     }
