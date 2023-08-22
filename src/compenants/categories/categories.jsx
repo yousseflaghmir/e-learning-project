@@ -1,13 +1,11 @@
 import React from "react";
-import {Swiper, SwiperSlide,} from "swiper/react" ;
-import "swiper/css";
 import data from "../../utils/slider1.json";
 import { sliderSet } from '../../utils/commun';
 import "./categories.css";
 const categories = () => {
   return (
     <section>
-      <div className="paddings innerWidth r-container">
+      <div className="paddings innerWidth r-container " >
         <div className="j-head flexColStart">
           <span className="myspan orangeText">Best Categories</span>
           <span className="primaryText">A wide selection of categories</span>
@@ -18,19 +16,18 @@ const categories = () => {
             check out{" "}
           </span>
         </div>
-        <Swiper {...sliderSet}>
+        <div className="slider" {...sliderSet} >
           {data.map((card, i) => (
-            <SwiperSlide key={i}>
-              <div className="flexColStart r-card">
+              <div key={i} className="flexColStart r-card">
                 <img src={card.image} alt="home" />
 
                 <span className="primaryText">{card.name}</span>
               </div>
-            </SwiperSlide>
           ))}
-        </Swiper>
+        </div>
       </div>
     </section>
+  
   );
 };
 
