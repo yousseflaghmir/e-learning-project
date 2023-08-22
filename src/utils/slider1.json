@@ -1,0 +1,27 @@
+[
+    {
+      "name": " It and Software ",
+      "image": "./equinix.jpg"
+    },
+    {
+      "name": "Programming",
+      "image": "./jomo.jpg"
+    },
+    {
+      "name": " Marketing ",
+      "image": "./prologis.jpg"
+    },
+    {
+      "name": " E-commerce",
+      "image": "./realty.jpg"
+    },
+    {
+      "name": " Design ",
+      "image": "./tower.jpg"
+    },
+    {
+      "name": " Business ",
+      "image": "./homo.jpg"
+    }
+  ]
+  

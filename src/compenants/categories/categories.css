@@ -1,0 +1,21 @@
+.r-container{
+    overflow: hidden;
+    position: relative;
+  }
+  .r-head{
+     margin-bottom: 2rem;
+ 
+  }
+  .myspan{
+    margin-top: 3rem;
+ }
+ .j-head>:nth-child(2){
+   font-family: var(--font-stack-heading-serif);
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.02rem;
+    max-width: 36em;
+    color: black;
+    margin-bottom: 1.5rem;
+ }

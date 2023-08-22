@@ -18,4 +18,4 @@ export default layout;
 
 
 
-/*chof la button dyl lheader rah mabghatch tkhdem lik */
+/*chof la button dyl lheader rah mabghatch tkhdem */
