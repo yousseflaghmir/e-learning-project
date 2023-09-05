@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Layout from "./compenants/layout/layout";
 import {QueryClient, QueryClientProvider } from 'react-query'
+import Login from "./pages/login/login"
+import Signup from "./pages/signup/signup"
 
 function App() {
   const queryClient =new QueryClient()
@@ -73,6 +75,8 @@ function App() {
           <Route element={<Layout />}>
              <Route path="/" element={<Website />} />
              <Route path="/properties" element={<Properties/>} />
+             <Route path="/login" element={<Login/>} />
+             <Route path="/signup" element={<Signup/>} />
           </Route>
         </Routes>
       </Suspense>
